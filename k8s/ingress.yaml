@@ -5,9 +5,9 @@ metadata:
 spec:
   tls:
     - hosts:
-        - pokemon.lab.sspcloud.fr
+        - pokedemo.lab.sspcloud.fr
   rules:
-    - host: pokemon.lab.sspcloud.fr
+    - host: pokedemo.lab.sspcloud.fr
       http:
         paths:
           - path: /
